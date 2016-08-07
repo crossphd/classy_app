@@ -5,20 +5,36 @@ h1, h2, h3, h4, h5, h6, .navbar {
   margin:0;
 }
 
-.navbar {
+.navbar.navbar-inverse {
   border-radius:0;
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 200;
+  // font-family: "Helvetica Neue", Helvetica;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-size: 18px;
+  font-weight: 100;
   background:url('dark_wood.png');
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  margin-bottom: 0;
+  vertical-align: center;
+  min-height: 90px; 
+}
+
+.navbar-header{
+  padding-top: 17px;
+  min-height: 90px; 
 }
 
 .navbar-inverse a.navbar-brand {
-  font-family: "Helvetica Neue", Helvetica;
-  font-weight: 100;
-  color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-left: 20px;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin:0 auto;
+}
+
+.navbar .navbar-nav{
+  text-align: right;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+  vertical-align: middle;
 }
 
 .hero {
@@ -28,6 +44,8 @@ h1, h2, h3, h4, h5, h6, .navbar {
   -o-background-size: cover;
   height: 370px;
   background-size: cover;
+  background-position: center center; 
+  background-attachment: scroll; 
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -37,17 +55,26 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .frosty h1 {
-  font-family: "Helvetica Neue", Helvetica;
+  // font-family: "Helvetica Neue", Helvetica;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: 100;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .frosty h2 {
-  font-family: "Helvetica Neue", Helvetica;
+  // font-family: "Helvetica Neue", Helvetica;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   font-weight: 200;
   text-shadow: rgba(0,0,0,0.95) 1px 1px;
 }
 
 .btn {
   border-radius:0;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+body {
+  background: url('mochaGrunge.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+
 }

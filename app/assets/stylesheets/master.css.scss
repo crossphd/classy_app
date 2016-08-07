@@ -30,6 +30,7 @@ h1, h2, h3, h4, h5, h6, .navbar {
 }
 
 .navbar .navbar-nav{
+  overflow: hidden;
   text-align: right;
   padding-top: 10px;
   padding-bottom: 5px;
@@ -76,5 +77,21 @@ h1, h2, h3, h4, h5, h6, .navbar {
 body {
   background: url('mochaGrunge.png');
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
 
+.booyah-box {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  // box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #cccccc;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  padding:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.booyah-box h2, .booyah-box h1 {
+  margin:10px;
 }

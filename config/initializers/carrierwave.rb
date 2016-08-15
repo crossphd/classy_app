@@ -1,5 +1,4 @@
 CarrierWave.configure do |config|
-  config.fog_credentials = {
     config.storage    = :aws
     config.aws_bucket = ENV["AWS_BUCKET"]
     config.aws_acl    = "public-read"

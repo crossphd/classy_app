@@ -45,4 +45,7 @@ gem 'sprockets', '2.11.0'
 gem 'sass-rails'
 gem 'devise', '>= 3.2.4'
 gem 'simple_form'
+gem 'carrierwave'
+gem 'figaro'
+gem 'fog'
 

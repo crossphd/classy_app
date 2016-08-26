@@ -18,12 +18,13 @@ body {
 
 /* Set the fixed height of the footer here */
 #footer {
-  height: $footer-height;
+  min-height: $footer-height;
   color: white;
   background-color: rgba(36,32,33,0.9);
   font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
   padding:10px 0px;
   margin-top:30px;
+  font-weight: 100;
 }
 
 #footer a {
@@ -33,4 +34,17 @@ body {
 
 .clr {
   clear:both;
+}
+
+.social-button {
+  // width: 32px;
+  margin:10px;
+}
+
+.social a:hover {
+  text-decoration:none;
+}
+
+.foot-space {
+  margin-top: 8px;
 }

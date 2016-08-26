@@ -73,9 +73,45 @@
 
 <div id="footer">
   <div class="container">
-    <b>Footer Here</b>
-    <br />
-    <%= link_to 'Teach a Course', new_instructor_course_path %>
+    <div class="col-xs-12 col-sm-3 foot-space">
+        <b>Teachers</b>
+        <br />
+        <%= link_to 'Teach a Course', new_instructor_course_path %>
+        <br />
+        <%= link_to 'My Dashboard', dashboard_path %>
+      </div>
+      <div class="col-xs-12 col-sm-3 foot-space">
+        <b>About</b>
+        <br />
+        <%= link_to 'Team', '#' %>
+        <br />
+        <%= link_to 'Careers', '#' %>
+        <br />
+        <%= link_to 'Privacy Policy', '#' %>
+      </div>
+      <div class="col-xs-12 col-sm-3 foot-space">
+        <b>Contact</b>
+        <br />
+        <%= mail_to "chris@crossphd.com" do %>
+          <span>chris@crossphd.com</span>
+        <% end %>
+        <br />
+        Los Angeles, CA
+        <br />
+      </div>
+      <div class="col-xs-12 col-sm-3 text-center social">
+        <b>Social</b>
+        <br />
+        <%= link_to 'https://twitter.com/crossphd', :target => "_blank" do %>
+          <%= image_tag 'twitter2.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'https://github.com/CRossPhD', :target => "_blank" do %>
+          <%= image_tag 'github2.png', class: 'social-button' %>
+        <% end %>
+        <%= link_to 'https://medium.com/@crossphd', :target => "_blank" do %>
+          <%= image_tag 'medium2.png', class: 'social-button' %>
+        <% end %>
+      </div>
   </div>
 </div>
 

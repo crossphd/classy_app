@@ -96,6 +96,21 @@ body {
   margin:10px;
 }
 
+.booyah-box2 {
+  -moz-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  -webkit-box-shadow: 1px 1px 2px 0 #d0d0d0;
+  // box-shadow: 1px 1px 2px 0 #d0d0d0;
+  background: #cccccc;
+  border: 1px solid #ccc;
+  border-color: #e4e4e4 #bebebd #bebebd #e4e4e4;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  // margin-left: 5px;
+  // margin-right: 5px;
+  padding:10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .field_with_errors {
   color: #ff3333;
   background-color: #FFEEEE;
@@ -169,4 +184,12 @@ ul .header .glyphicon {
 
 .lessons li p {
   margin:0;
+}
+
+.features {
+  text-align: left;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+  font-weight: 100;
+  font-size: 15px;
+
 }

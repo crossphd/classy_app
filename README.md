@@ -16,6 +16,6 @@ You can checkout Classy [here] (https://classy-cr.herokuapp.com/). Sign up, enro
 
 * Devise for user security, sign-in forms, etc.
 
-* Users can be both students and teachers with restricted Admin access if making a teacher course.
+* Users can be both students and teachers with restricted Admin access when creating a course as a teacher.
 
 * Shows all courses that students are enrolled into & shows all courses teachers are teaching.

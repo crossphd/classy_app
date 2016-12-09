@@ -85,15 +85,15 @@
         <br />
         <%= link_to 'Privacy Policy', privacy_path %>
       </div>
-      <div class="col-xs-12 col-sm-3 foot-space">
-        <b>Contact</b>
+      <div class="col-xs-12 col-sm-3 foot-space text-center">
+        <b>Created by Christopher Ross</b>
         <br />
+        <%= link_to 'http://www.crossphd.com', :target => "_blank" do %>
+          <%= image_tag 'crossphd.jpg', class: 'social-button' %>
+        <% end %>
         <%= mail_to "chris@crossphd.com" do %>
           <span>chris@crossphd.com</span>
         <% end %>
-        <br />
-        Los Angeles, CA
-        <br />
       </div>
       <div class="col-xs-12 col-sm-3 text-center social">
         <b>Social</b>

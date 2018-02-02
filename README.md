@@ -1,7 +1,7 @@
 # Classy
 #### Written mostly in Ruby but also utilizes JavaScript and jQuery.
 
-You can checkout Classy [here] (https://classy-cr.herokuapp.com/). Sign up, enroll into a course, make your own course, and have fun learning!
+You can checkout Classy[here] (https://classy-cr.herokuapp.com/). Sign up, enroll into a course, make your own course, and have fun learning!
 
 ### Features:
 * Easy to use platform for teachers to make courses and make money.

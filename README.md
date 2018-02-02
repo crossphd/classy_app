@@ -1,7 +1,12 @@
 # Classy
-#### Written mostly in Ruby but also utilizes JavaScript and jQuery.
+#### E-learning platform created with ruby on rails.
 
-You can checkout Classy[here] (https://classy-cr.herokuapp.com/). Sign up, enroll into a course, make your own course, and have fun learning!
+You can checkout Classy [here](https://classy-cr.herokuapp.com/). Sign up, enroll into a course, make your own course, and have fun learning!
+
+<div align="center">
+  <img src="https://github.com/crossphd/ImageRepo/blob/master/projects/classy.png?raw=true" />
+</div>
+
 
 ### Features:
 * Easy to use platform for teachers to make courses and make money.
